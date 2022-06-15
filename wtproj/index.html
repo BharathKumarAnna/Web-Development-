@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>wtproject</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+  }
+
+
+.social {
+    width: 50px;
+}
+
+.socialfb {
+    width: 70px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.space {
+    padding-top: 170px;
+}
+
+.img {
+    width: 100%;
+}
+
+.head {
+    color: blue;
+    margin-left: 90px;
+}
+
+.para {
+    margin-left: 90px;
+    font-size: 24px;
+}
+
+.lists {
+    list-style-type: none;
+}
+</style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="https://thumbs.dreamstime.com/z/red-medical-sign-13302453.jpg" class="logo" />Medic+</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="home()">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="lists">
+                            <li class="dropdown-item" href="#">Surgical Services</li>
+                            <li class="dropdown-item" href="#">Laboratory Services</li>
+                            <li class="dropdown-item" href="#">Diagnostic Services</li>
+                            <li class="dropdown-item" href="#">Emergency Care</li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="doctor()"> Doctors </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Departments
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="lists">
+                            <li class="dropdown-item" href="#">Cardiology</li>
+                            <li class="dropdown-item" href="#">Neurology</li>
+                            <li class="dropdown-item" href="#">Gynecology</li>
+                            <li class="dropdown-item" href="#">Radiology</li>
+                            <li class="dropdown-item" href="#">Dental Care</li>
+                            <li class="dropdown-item" href="#">Urology</li>
+                            <li class="dropdown-item" href="#">Orthopadics</li>
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="about()">About Us</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div id="home" class="bg">
+        <div class="space">
+            <h1 class="head"> Your Most Trusted <br /> Health Partner </h1>
+            <p class="para"> Get the most advanced emergency care anywhere <br />in just minutes.</p>
+            <button id="btn" class="w-25 btn btn-primary ml-5 mt-5" onclick="appointment()"> Make An Appointment</button>
+            <h4 class="mt-1 ml-2"> Timings: </h4>
+            <h1 class="mt-1 ml-2"> Working Hours: <br /><span class="text-primary"> Mon - Sat : 9.00 - 17.00 </span></h1>
+            <h1>Emergency Cases: <br /> <span class="text-primary"> 1-800-7563-8799 </span> </h1>
+        </div>
+        <img src="doctdetails.jpeg"  height="400px" width="1450px" alt="doctdetails">
+        <img src="https://www.logolynx.com/images/logolynx/03/037e982f03022600db4fb8f35ad7ff7c.png" class="social" />
+        <img src="https://www.armstrongsgroup.com/wp-content/uploads/2017/03/facebook-logo-black-and-white-png.png" class="socialfb" />
+        <img src="http://simpleicon.com/wp-content/uploads/twitter-3.png" class="twitter" />
+    </div>
+
+
+    <div id="about" class="d-none">
+        <p>
+            Each day, the hospital receives many pharmacy walk-ins, admissions, emergency cases, and wellness consults. With every second spent at the hospital, dedicated doctors and staff perform a multitude of services including CT scans, MRIs, Cardiac Surgeries, Dialysis procedures, organ transplants, and more; all this at a fraction of international costs.
+        </p>
+        <p>Major specialities including Heart, Cancer, Bones, Joints & Spine, Organ Transplants, Neurology, Gastro & Colorectal, Bariatric Surgery, Gynaecology and Ophthalmology are some of the Centres of Excellence available, which offer exceptional group practice programmes.</p>
+        <img class="abtpic" src="abtpic.jpeg" height="600px" width="800px" alt="about pic">
+        <p class="aboutcr"><strong>Copyright © wtproject doctor appointment services.</strong></p>
+    </div>
+
+    <div id="app" class="text-center d-none">
+      <p>By Clicking on the "Book Appointment" button or Social Profiles,<br>
+         you agree to our Privacy Policy  &  Terms of Use</br><br>
+        <input type="text" placeholder="Your Name" /> <br /> <br />
+        <input type="email" placeholder="Your Email ID" /> <br /> <br />
+        <input type="number" placeholder="Your Mobile Number" /> <br /> <br />
+        <input type="date" /> <br /> <br />
+        <button onclick="books()" class="btn btn-primary"> Book Appointment</button><br>
+        <img src="socialprofiles.jpeg" alt="socialprofiles pic">
+        <h1 id="book"></h1>
+    </div>
+
+    <div id="doc" class="text-center d-none">
+        <a href="https://doctorsanjeev.com/">
+        <img src="Sanjeevpic.jpeg" class="w-25" /> </a>
+        <h1> Sanjeev kumar</h1>
+        <p> Cardiology</p>
+        <img src="https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?w=2000" height="250px" weidth="80px" class="w-25" />
+        <h1>James</h1>
+        <p> Dental Care </p>
+
+        <img src="https://st.depositphotos.com/1987395/2595/i/950/depositphotos_25957013-stock-photo-smiling-medical-woman-doctor-isolated.jpg" class="w-25" />
+        <h1> Angelica </h1>
+        <p> Gynecology</p>
+        <a href="https://www.askapollo.com/doctors/neurosurgeon/hyderabad/dr-alok-ranjan">
+        <img src="alokpic.jpeg" class="w-25" /></a>
+        <h1> Alok </h1>
+        <p> Neurology </p>
+    </div>
+
+<script class="text/javascript">
+    let homeEl = document.getElementById("home");
+let aboutEl = document.getElementById("about");
+let app = document.getElementById("app");
+let book = document.getElementById("book");
+let doc = document.getElementById("doc");
+
+function home() {
+    doc.classList.add("d-none");
+    app.classList.add("d-none");
+    homeEl.classList.remove("d-none");
+    aboutEl.classList.add("d-none");
+}
+
+
+function about() {
+    doc.classList.add("d-none");
+    app.classList.add("d-none");
+    homeEl.classList.add("d-none");
+    aboutEl.classList.remove("d-none");
+}
+
+function appointment() {
+    doc.classList.add("d-none");
+    app.classList.remove("d-none");
+    homeEl.classList.add("d-none");
+    aboutEl.classList.add("d-none");
+}
+
+function doctor() {
+    doc.classList.remove("d-none");
+    app.classList.add("d-none");
+    homeEl.classList.add("d-none");
+    aboutEl.classList.add("d-none");
+}
+
+function books() {
+    book.textContent = "Appointment Booked Successfully."
+}
+</script>
+
+
+
+</body>
+
+</html>

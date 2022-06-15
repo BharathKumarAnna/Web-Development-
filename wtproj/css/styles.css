@@ -1,0 +1,67 @@
+.bg {
+    background-image: url("https://thumbs.dreamstime.com/b/smiling-female-doctor-holding-medical-records-lab-coat-her-office-clipboard-looking-camera-56673035.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+#about {
+  background-color: #EAF6F6;
+}
+.aboutcr {
+
+  text-align: center;
+}
+#doc {
+  background-color: #EAF6F6;
+}
+.lists {
+  background-color: #EAF6F6;
+  font-style: oblique 23deg;
+}
+.abtpic{
+  margin-left: 300px;
+}
+#app {
+  background-color: white;
+
+}
+
+.social {
+    margin-left: 600px;
+    width: 50px;
+}
+
+.socialfb {
+
+    width: 70px;
+}
+.twitter{
+  padding: 10px;
+  width: 90px;
+  height: 80px;
+}
+.logo {
+    width: 50px;
+}
+
+.space {
+    padding-top: 170px;
+}
+
+.img {
+    width: 100%;
+}
+
+.head {
+    color: blue;
+    margin-left: 90px;
+}
+
+.para {
+    margin-left: 90px;
+    font-size: 24px;
+}
+
+.lists {
+    list-style-type: none;
+}
